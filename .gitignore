@@ -39,3 +39,9 @@ yarn-error.log
 /dist/ 
 
 alipayPublicKey_RSA2.txt
+
+qrcode/business_qr.png
+codepay/
+config/alipay.php
+config/codepay.json
+data/
