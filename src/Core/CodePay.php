@@ -96,9 +96,8 @@ class CodePay
     {
         $databaseFile = __DIR__ . '/../../data/codepay.db';
         $this->db = new \Medoo\Medoo([
-            'database_type' => 'sqlite',
-            'database_file' => $databaseFile,
-            'database_name' => 'codepay'
+            'type' => 'sqlite',
+            'database' => $databaseFile
         ]);
         $this->logger->info('Database initialized.', ['file' => $databaseFile]);
 
